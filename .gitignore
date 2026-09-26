@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.output/
+.tanstack/
+.vercel/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
