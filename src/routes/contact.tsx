@@ -2,7 +2,7 @@ import { useState, type FormEvent, type ReactNode } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { EVENTS } from "@/lib/events";
 import { SiteFooter } from "@/components/bala/PageShell";
-import { submitOrder } from "@/lib/orders.server";
+import { submitOrder } from "@/lib/orders";
 
 export const Route = createFileRoute("/contact")({ component: Contact });
 

@@ -1,6 +1,6 @@
 import { useEffect, useState, type FormEvent } from "react";
 import { createFileRoute } from "@tanstack/react-router";
-import { listOrders, updateOrderStatus, type OrderRow } from "@/lib/orders.server";
+import { listOrders, updateOrderStatus, type OrderRow } from "@/lib/orders";
 
 export const Route = createFileRoute("/admin")({ component: AdminPage });
 
